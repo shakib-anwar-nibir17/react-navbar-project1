@@ -13,7 +13,7 @@ const Navbar = () => {
               ? "pending"
               : isActive
               ? "bg-sky-400 py-3 px-40 md:px-3 rounded-md text-white"
-              : "hover:bg-slate-300 py-3 px-40 md:px-3  rounded-md hover:text-black"
+              : "hover:bg-[#B6FFFA] py-3 px-40 md:px-3  rounded-md hover:text-black"
           }
         >
           Home
@@ -27,7 +27,7 @@ const Navbar = () => {
               ? "pending"
               : isActive
               ? "bg-sky-400 py-3 px-40 md:px-3   rounded-md text-white"
-              : "hover:bg-slate-300 py-3 px-40 md:px-3  rounded-md hover:text-black"
+              : "hover:bg-[#B6FFFA] py-3 px-40 md:px-3  rounded-md hover:text-black"
           }
         >
           Shop
@@ -41,7 +41,7 @@ const Navbar = () => {
               ? "pending"
               : isActive
               ? "bg-sky-400 py-3 px-40 md:px-3   rounded-md text-white"
-              : "hover:bg-slate-300 py-3 px-40 md:px-3  rounded-md hover:text-black"
+              : "hover:bg-[#B6FFFA] py-3 px-40 md:px-3  rounded-md hover:text-black"
           }
         >
           Profile
@@ -55,7 +55,7 @@ const Navbar = () => {
               ? "pending"
               : isActive
               ? "bg-sky-400 py-3 px-40 md:px-3 rounded-md text-white"
-              : "hover:bg-slate-300 py-3 px-40 md:px-3 rounded-md hover:text-black"
+              : "hover:bg-[#B6FFFA] py-3 px-40 md:px-3 rounded-md hover:text-black"
           }
         >
           About
@@ -64,7 +64,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="flex flex-col md:flex-row gap-4 justify-between  bg-blue-950 text-white p-4">
+    <nav className="flex flex-col md:flex-row gap-4 justify-between  bg-[#687EFF] text-white p-4">
       <Link className="pl-3 text-2xl font-bold md:mt-1">My Website</Link>
       <div
         onClick={() => {
